@@ -1,0 +1,49 @@
+body {
+
+    background-color: darkgoldenrod;
+
+}
+
+h1,
+p,
+ul,
+h2,
+th,
+td {
+
+    color: darkgreen;
+}
+
+h1 {
+    font-size: xx-large;
+
+}
+
+h2 {
+
+    font-size: x-large;
+}
+
+p,
+ul,
+th,
+td {
+
+    font-size: medium;
+}
+body {
+
+    text-align: center;
+}
+
+table {
+
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+table,th,tr,td {
+
+    border: 1px solid
+}

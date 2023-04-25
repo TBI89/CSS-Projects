@@ -1,0 +1,46 @@
+/* Animation */
+
+.box {
+    width: 350px;
+    height: 200px;
+    background: linear-gradient(to right, yellow, purple);
+    border: 2px solid black;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+    font-size: xx-large;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 250px;
+    left: 600px;
+}
+
+@font-face {
+    font-family: 'my-custom-font';
+    src: url(fonts/Montserrat-ExtraLightItalic.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'my-custom-font', sans-serif;
+}
+
+@keyframes slow-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.box {
+    animation-name: slow-rotate;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

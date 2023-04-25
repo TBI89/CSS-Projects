@@ -1,0 +1,28 @@
+body {
+    background-color: brown; font-size: xx-large; font-style: oblique;
+}
+input,textarea,select {
+    background-color: darkgreen;
+}
+
+label,p {
+    color: orange;
+}
+
+html {
+    text-align: center;
+}
+
+
+
+h1 {
+    color: beige;
+}
+
+a {
+  color: blue;  
+}
+
+ a:hover {
+    color: darkorange;
+ }
